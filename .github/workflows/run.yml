@@ -2,11 +2,6 @@ name: Run Solutions
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */6 * * *'
-  push:
-    branches:
-      - benchmark
 
 jobs:
   test:
